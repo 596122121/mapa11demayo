@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asentamiento 11 de Mayo</title>
+    <title>Asentamiento 11 de Mayo - Mapa Comunitario</title>
+    <meta name="description" content="Explora el mapa y el desarrollo comunitario en el Asentamiento 11 de Mayo. Estamos en fase de desarrollo y pronto estaremos disponibles para servirte." />
+    <meta name="keywords" content="Asentamiento 11 de Mayo, mapa comunitario, desarrollo comunitario" />
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60%;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #555;
+        }
+
+        .spinner {
+            animation: spinner 2s linear infinite;
+        }
+
+        @keyframes spinner {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 <body>
-    <h2>Mapa de la Comunidad</h2>
+    <div class="container">
+        <h1>Asentamiento 11 de Mayo - Mapa Comunitario</h1>
+        <h2>Estado en Desarrollo</h2>
+        <h5>El sitio está en fase de desarrollo y estará disponible pronto...</h5>
+        <div class="spinner">
+            <img width="60" src="engranaje.png" alt="Ícono de desarrollo comunitario en 11 de Mayo" />
+        </div>
+    </div>
 </body>
 </html>
+
